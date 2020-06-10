@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "up": "ncu -u && npm install && npm audit fix"
   },
   "author": "psi",
-  "license": "Public Domain"
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "npm-check-updates": "^7.0.0"
+  }
 }

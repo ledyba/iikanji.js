@@ -1,14 +1,14 @@
 {
   "name": "iikanji.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "up": "ncu -u && npm install && npm audit fix"
+    "up": "npm-check-updates -u && npm install && npm audit fix"
   },
   "author": "psi",
   "license": "AGPL-3.0-or-later",
   "devDependencies": {
-    "npm-check-updates": "^7.0.0"
+    "npm-check-updates": "^12.5.5"
   }
 }

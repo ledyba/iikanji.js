@@ -7,7 +7,7 @@
     "up": "ncu -u && npm install && npm audit fix"
   },
   "author": "psi",
-  "license": "GPL-3.0-or-later",
+  "license": "AGPL-3.0-or-later",
   "devDependencies": {
     "npm-check-updates": "^7.0.0"
   }
